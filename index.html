@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DOCX Editor</title>
+<style>body{background:#f3f4f6;margin:0;font-family:system-ui,sans-serif}.bar{background:#fff;border-bottom:1px solid #ddd;flex-wrap:wrap;align-items:center;gap:10px;padding:10px 14px;display:flex}button{color:#fff;background:#2563eb;border:0;border-radius:6px;padding:8px 14px}button:disabled{background:#9ca3af}#status{color:#555;font-size:13px}#status.err{color:#b91c1c}#superdoc{padding:8px;overflow-x:auto}</style>
+  <script type="module" crossorigin src="./index.js"></script>
+  <link rel="stylesheet" crossorigin href="./index-BlZizLkR.css">
+</head>
+<body>
+  <div class="bar">
+    <input type="file" id="file" accept=".docx" />
+    <button id="new">New</button>
+    <button id="save" disabled>Save .docx</button>
+    <span id="status">Choose a .docx file.</span>
+  </div>
+  <div id="toolbar"></div>
+  <div id="superdoc"></div>
+</body>
+</html>
